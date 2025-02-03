@@ -7,7 +7,7 @@ int main(){
     int sum = x+y;
     int minus = x-y;
     int product = x*y;
-    int divide = x/y;
+    float divide = x/y;
     if(z=='+'){
         printf("%d",sum);
     }
