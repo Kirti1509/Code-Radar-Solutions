@@ -12,5 +12,8 @@ int main(){
     else if(signal == 'Y'){
         printf("Slow Down");
     }
+    else{
+        printf("Inalid input");
+    }
     return 0;
 }
