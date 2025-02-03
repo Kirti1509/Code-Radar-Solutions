@@ -18,7 +18,7 @@ int main(){
         printf("%d",product);
     }
     else if(z=='/'){
-        printf("%d",divide);
+        printf("%f",divide);
     }else{
         printf("error");
     }
