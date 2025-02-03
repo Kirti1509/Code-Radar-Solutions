@@ -3,7 +3,7 @@
 int main(){
     int x,y;
     scanf("%d%d",&x,&y);
-    int val = pow(y,2);
+    int val = y*y;
     if(x==val){
         printf("Yes");
     }
