@@ -4,10 +4,14 @@ int main(){
     int x,y;
     char z;
     scanf("%d%d%c",&x,&y,&z);
-    int sum = x+y;
-    int minus = x-y;
-    int product = x*y;
-    float divide = x/y;
+    int sum;
+    sum = x+y;
+    int minus;
+    minus = x-y;
+    int product;
+    product = x*y;
+    float divide ;
+    divide = x/y;
     if(z=='+'){
         printf("%d",sum);
     }
