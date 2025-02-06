@@ -11,9 +11,9 @@ int main(){
         array[i] = ch;
         count++;
         i++;
-    }array[i]='\n';
+    }array[i]='\0';
     for(int i=0;i<count;i++){
-        array_new[i] = array[count-i];
+        array_new[i] = array[count-i-1];
     }
     printf("%s",array_new);
     return 0;
