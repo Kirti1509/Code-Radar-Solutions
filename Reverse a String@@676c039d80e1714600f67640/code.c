@@ -15,6 +15,6 @@ int main(){
     for(int i=0;i<count;i++){
         array_new[i] = array[count-i];
     }
-    printf("%c",array_new);
+    printf("%s",array_new);
     return 0;
 }
