@@ -15,7 +15,7 @@ int main(){
     }
 
     for(int i=0;i<input[0];i++){
-        if(array[i]==input[1]){
+        if(array[i]>input[1]){
             count++;
         }
     }
