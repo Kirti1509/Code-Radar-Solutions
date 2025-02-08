@@ -19,6 +19,8 @@ int main(){
             }
         
         }
+
+    }
         
         if(count>0){
             printf("%d",max_value);
@@ -27,7 +29,7 @@ int main(){
             printf("%d",-1);
         }
         
-    }
+    
 
     return 0;
 }
