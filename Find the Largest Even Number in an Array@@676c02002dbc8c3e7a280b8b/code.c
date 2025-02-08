@@ -15,7 +15,7 @@ int main(){
         if(array[i]%2==0){
             if(array[i]>max_value){
                 max_value = array[i];
-                count++
+                count++;
             }
         
         }
