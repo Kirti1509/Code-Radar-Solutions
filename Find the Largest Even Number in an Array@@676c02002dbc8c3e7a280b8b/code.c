@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+#include<stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -12,7 +13,7 @@ int main(){
     }
     int max_value = 0;
     for(int i =0;i<n;i++){
-        if(array[i]%2==0){
+        if(abs(array[i])%2==0){
             if(array[i]>max_value){
                 max_value = array[i];
                 count++;
