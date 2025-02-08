@@ -5,7 +5,7 @@ int main(){
     int array[100];
     int count =0;
     int el;
-    for(int i=0;i<sizeof(input);i++){
+    for(int i=0;i<2;i++){
         scanf("%d",&el);
         input[i] = el;
     }
