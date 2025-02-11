@@ -3,8 +3,8 @@
 int main(){
     int n;
     int el;
-    int max_val = -999;
-    int min_val = 999;
+    int max_val = -9999999;
+    int min_val = 9999999;
     scanf("%d",&n);
     int array[100];
     for(int i=0;i<n;i++){
