@@ -19,6 +19,6 @@ int main(){
             min_val = array[i];
         }
     }
-    printf("%d %d",min_val,max_val);
+    printf("%d%d",min_val,max_val);
     return 0;
 }
