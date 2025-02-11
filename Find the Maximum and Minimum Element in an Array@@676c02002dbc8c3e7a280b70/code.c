@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&n);
     int array[100];
     for(int i=0;i<n;i++){
-        scanf("%d",&el)
+        scanf("%d",&el);
         array[i] = el;
     }
     for(int i=0;i<n;i++){
