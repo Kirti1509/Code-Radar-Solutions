@@ -25,10 +25,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(new_array[i]>max_value){
             max_value = new_array[i];
-        }
-        if(max_value==new_array[i] && array[i]<m){
             m = array[i];
-            }
+        }
+        else if(new_array[i]==max_value && array[i]<m){
+            m = array[i];
+        }
     }
     printf("%d",m);
     return 0 ;
